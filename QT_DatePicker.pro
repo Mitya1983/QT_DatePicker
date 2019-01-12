@@ -27,11 +27,13 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         datepicker.cpp \
-    listpicker.cpp
+    listpicker.cpp \
+    mybutton.cpp
 
 HEADERS += \
         datepicker.h \
-    listpicker.h
+    listpicker.h \
+    mybutton.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
