@@ -28,12 +28,12 @@ SOURCES += \
         main.cpp \
         datepicker.cpp \
     listpicker.cpp \
-    mybutton.cpp
+    hoverbutton.cpp
 
 HEADERS += \
         datepicker.h \
     listpicker.h \
-    mybutton.h
+    hoverbutton.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
